@@ -1,0 +1,41 @@
+.radius {
+    background: blue;
+    border: 10px solid orange; 
+    width: 250px;
+    height: 250px;  
+    display: inline-block;  
+    margin: 50px;
+}
+
+#forma1{
+    border-radius: 10px;
+}
+
+#forma2{
+    border-radius: 95px;
+}
+
+#forma3{
+    border-radius: 250px;
+}
+
+#forma4{
+    border-radius: 50px 0px;
+}
+
+#forma5{
+    border-top-left-radius: 250px;
+}
+
+#forma6{
+    border-radius: 50px / 50px;
+}
+
+#forma7{
+    border-radius: 250px 0px;
+}
+
+#forma8{
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
